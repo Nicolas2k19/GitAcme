@@ -1,16 +1,36 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #000080;
+    background-color: #c3c3c3;
 }
 
+h1{margin: 0;}
 
+img{
+    width: 70px;
+    height: 70px;
+}
+
+header{
+    background-color: white;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
 
 .btn{
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
-    margin: 0;
-    background-color: red;
-    
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 166, 0);
+    font-size: 1.5rem;
+
+}
+
+.divBtn{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
